@@ -1,0 +1,85 @@
+{
+  "name": "boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@reduxjs/toolkit": "^1.6.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "chart.js": "^3.4.1",
+    "crypto": "^1.0.1",
+    "env-cmd": "^10.1.0",
+    "immer": "^9.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-calendar": "^3.4.0",
+    "react-chartjs-2": "^3.0.3",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.11.0",
+    "react-table": "^7.7.0",
+    "redux": "^4.1.0",
+    "styled-components": "^5.3.0",
+    "styled-reset": "^4.3.4",
+    "use-immer": "^0.5.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.development react-scripts start",
+    "build": "env-cmd -f .env.development react-scripts build",
+    "opsstart": "env-cmd -f .env.production react-scripts start",
+    "opsbuild": "env-cmd -f .env.production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.3.0",
+    "@storybook/addon-essentials": "^6.3.0",
+    "@storybook/addon-links": "^6.3.0",
+    "@storybook/node-logger": "^6.3.0",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.3.0",
+    "dotenv": "^10.0.0",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}

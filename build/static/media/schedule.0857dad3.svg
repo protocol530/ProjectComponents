@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="ic_Assignments" transform="translate(0.441)">
+    <circle id="Oval" cx="10" cy="10" r="10" transform="translate(-0.441)" fill="none"/>
+    <g id="Planner_Checklist" data-name="Planner Checklist">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="20" height="20" transform="translate(-0.441)" fill="none"/>
+      <g id="Group_8" data-name="Group 8" transform="translate(1.226 2.083)">
+        <g id="Group_5" data-name="Group 5" transform="translate(0)">
+          <g id="Group_4" data-name="Group 4">
+            <path id="Rectangle_2" data-name="Rectangle 2" d="M0,0H16.667V5A4.167,4.167,0,0,1,12.5,9.167H4.167A4.167,4.167,0,0,1,0,5Z" transform="translate(0 6.667)" fill="none" stroke="#939393" stroke-miterlimit="10" stroke-width="1.5"/>
+            <path id="Rectangle" d="M1.667,0H15a1.667,1.667,0,0,1,1.667,1.667V5H0V1.667A1.667,1.667,0,0,1,1.667,0Z" transform="translate(0 1.667)" fill="none" stroke="#939393" stroke-miterlimit="10" stroke-width="1.5"/>
+            <path id="Path_3" data-name="Path 3" d="M.833,0V2.5" transform="translate(12.5)" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+            <path id="Path_3-2" data-name="Path 3" d="M.833,0V2.5" transform="translate(3.333)" fill="none" stroke="#939393" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

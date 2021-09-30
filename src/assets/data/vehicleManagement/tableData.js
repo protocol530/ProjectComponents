@@ -1,0 +1,186 @@
+import { URLPATH } from "../../../assets/data/common";
+export const VehicleManagementCol = [
+  {
+    key: "status",
+    label: "Status",
+    format: "status",
+    sorting: false,
+    width: "12.2%",
+  },
+  {
+    key: "number",
+    label: "Number",
+    format: null,
+    sorting: false,
+    width: "8.7%",
+  },
+  {
+    key: "truckType",
+    label: "Truck type",
+    format: null,
+    sorting: false,
+    width: "15.2%",
+  },
+  {
+    key: "option",
+    label: "Option",
+    format: null,
+    sorting: false,
+    width: "14.6%",
+  },
+  {
+    key: "year",
+    label: "Year",
+    format: null,
+    sorting: false,
+    width: "6.3%",
+  },
+  {
+    key: "created",
+    label: "Regist Date",
+    format: "date",
+    sorting: false,
+    width: "10.7%",
+  },
+  {
+    key: "garage_name",
+    label: "Garage",
+    format: null,
+    sorting: false,
+    width: "23%",
+  },
+];
+export const surchargeList = {
+  title: "Maintenance Cost",
+  columns: [
+    {
+      key: "content",
+      label: "Contents",
+      format: null,
+      sorting: false,
+      width: "20.3%",
+    },
+    {
+      key: "date",
+      label: "Date",
+      format: "date",
+      sorting: false,
+      width: "15.8%",
+    },
+    {
+      key: "place",
+      label: "Repairshop",
+      format: null,
+      sorting: false,
+      width: "15.8%",
+    },
+    {
+      key: "cost",
+      label: "Cost",
+      format: null,
+      sorting: false,
+      width: "13.4%",
+    },
+    {
+      key: "memo",
+      label: "Memo",
+      format: null,
+      sorting: false,
+      width: "19.4%",
+    },
+    {
+      key: "receipt",
+      label: "Receipt",
+      format: "icon",
+      sorting: false,
+      width: "14.1%",
+    },
+    {
+      key: "memu",
+      label: "",
+      format: "menu",
+      sorting: false,
+      width: "1.2%",
+    },
+  ],
+};
+export const allocatedList = {
+  title: "Allocated List",
+  columns: [
+    {
+      key: "company",
+      label: "Company",
+      format: null,
+      sorting: false,
+      width: "23.2%",
+    },
+    {
+      key: "requestDate",
+      label: "Request Date",
+      format: "date",
+      sorting: false,
+      width: "15.8%",
+    },
+    {
+      key: "location",
+      label: "Location",
+      format: "location",
+      sorting: false,
+      width: "31.4%",
+    },
+    {
+      key: "mileage",
+      label: "Mileage",
+      format: null,
+      sorting: false,
+      width: "13.4%",
+    },
+    {
+      key: "driver",
+      label: "Driver",
+      format: null,
+      sorting: false,
+      width: "16.2%",
+    },
+  ],
+};
+
+export const vehicleDetailMenuList = [
+  {
+    key: "delete",
+    label: "Delete",
+    format: null,
+    path: "/vehicleManagement",
+    apiUrlPath: URLPATH.logisTruck,
+  },
+  {
+    key: "modify",
+    label: "Modify",
+    format: null,
+    path: "modify",
+    apiUrlPath: "",
+  },
+  {
+    key: "Status",
+    label: "status",
+    format: "status",
+    path: "",
+    apiUrlPath: "",
+  },
+  {
+    key: "available",
+    label: "Available",
+    format: "check",
+    path: "",
+    apiUrlPath: "",
+    status: false,
+  },
+  {
+    key: "unavailable",
+    label: "Unavailable",
+    format: "check",
+    path: "",
+    apiUrlPath: "",
+    status: false,
+  },
+];

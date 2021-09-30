@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="그룹_25770" data-name="그룹 25770" transform="translate(-186 -28)">
+    <path id="profile_card" d="M46,354H34a2,2,0,0,0-2,2v8a2,2,0,0,0,2,2H46a2,2,0,0,0,2-2v-8A2,2,0,0,0,46,354Zm0,10H34v-8H46Zm-6-5a2,2,0,1,0-2,2A2,2,0,0,0,40,359Zm-2,2a2.968,2.968,0,0,0-2.82,2h5.64A2.968,2.968,0,0,0,38,361Zm6-4H42a1,1,0,0,0-1,1h0a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1h0A1,1,0,0,0,44,357Zm0,3H43a1,1,0,0,0-1,1h0a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1h0A1,1,0,0,0,44,360Z" transform="translate(156 -322)" fill="#fff" stroke="#192437" stroke-width="1" fill-rule="evenodd"/>
+    <rect id="사각형_8294" data-name="사각형 8294" width="20" height="20" transform="translate(186 28)" fill="none"/>
+  </g>
+</svg>
