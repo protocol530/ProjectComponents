@@ -23,3 +23,6 @@ npm start
 npm run build //product
 npm run dev //develop type
 ```
+
+![dashboard](./projectReview/dashboard.jpg)
+![orderManage](./projectReview/ordermanage.jpg)
